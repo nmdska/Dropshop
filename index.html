@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dropshop Giveaways</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f8fc;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1a1a1a;
+      color: white;
+      padding: 15px 30px;
+    }
+
+    .logo {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    .logo span {
+      color: #ffcc00;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .store-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .offer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .offer-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .offer-img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      background: #f0f0f0;
+    }
+
+    .offer-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 15px 10px 5px;
+    }
+
+    .offer-desc {
+      font-size: 0.95rem;
+      margin: 0 15px 15px;
+      color: #555;
+      line-height: 1.4;
+    }
+
+    .offer-btn {
+      margin-top: auto;
+      background: #1a73e8;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .offer-btn:hover {
+      background: #0c59c7;
+    }
+
+    footer {
+      background: #202020;
+      color: white;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    footer h3 {
+      color: #ffcc00;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin: 6px 0;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <script>
+    window.onload = () => {
+      setTimeout(() => {
+        alert("🎁 Welcome to Dropshop Giveaways! Select an offer and enjoy exclusive rewards.");
+      }, 800);
+    };
+
+    function claimOffer(url) {
+      window.location.href = url;
+    }
+  </script>
+
+  <header>
+    <div class="logo">DR<span>O</span>PSHOP</div>
+    <nav>
+      <a href="#">Products</a>
+      <a href="#">Tasks</a>
+      <a href="#">My tasks: 1</a>
+    </nav>
+  </header>
+
+  <div class="store-container">
+    <div class="header">
+      <h1>🏆 Choose Your Reward Offer</h1>
+      <p>Select an offer and claim your bonus</p>
+    </div>
+    <div class="offer-grid">
+
+      <div class="offer-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Walmart_logo_%282025%3B_Stacked_alt%29.svg/250px-Walmart_logo_%282025%3B_Stacked_alt%29.svg.png" class="offer-img" />
+        <div class="offer-title">Walmart Voucher</div>
+        <div class="offer-desc">Get a $100 Walmart voucher to shop your favorite items instantly.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/13412?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQceNDeIPIDfWRTY5QEjydjF2L7NsmZtUD-kC9M3NQDt_FCC2RHPTkzVIY5BCIpvi_t9N8&usqp=CAU" class="offer-img" />
+        <div class="offer-title">Netflix – 6 Months</div>
+        <div class="offer-desc">Enjoy unlimited streaming with a free 6-month Netflix membership.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/13410?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFVEI-5neCuUSfQcaApIiL29hYlu6e5kE0rg&s" class="offer-img" />
+        <div class="offer-title">$1,000 Cash App</div>
+        <div class="offer-desc">You could win $1,000 directly to your Cash App balance.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/9851?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://static.driffle.com/media-gallery/production/df0cbfc8-85b0-4c27-8ac5-77bdc5817470_lululemon-united-states-500-usd-54617png" class="offer-img" />
+        <div class="offer-title">$500 LuluLemon Giftcard</div>
+        <div class="offer-desc">Shop premium athletic wear with this exclusive gift card.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/1610?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://i.pinimg.com/736x/f6/98/f5/f698f5597c6bbc3a461738e11413445f.jpg" class="offer-img" />
+        <div class="offer-title">Caribbean Getaway</div>
+        <div class="offer-desc">Win a dream vacation for two to a Caribbean paradise!</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/1511?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://i.ytimg.com/vi/ZW1VHRfRV1k/maxresdefault.jpg" class="offer-img" />
+        <div class="offer-title">Wendy's Sample</div>
+        <div class="offer-desc">Claim a free taste of Wendy's newest limited-edition item.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/1704?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://uno.ma/pub/media/catalog/product/cache/af8d7fd2c4634f9c922fba76a4a30c04/l/d/ld0005977234_1_1.jpeg" class="offer-img" />
+        <div class="offer-title">iPhone 14 – 256GB</div>
+        <div class="offer-desc">Enter now for your chance to win an iPhone 14 (Purple).</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/364?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://images.g2a.com/300x400/1x1x1/7-eleven-gift-card-300-twd-key-taiwan-i10000501634014/e58892b352db406690c84859" class="offer-img" />
+        <div class="offer-title">7 Eleven Giftcard</div>
+        <div class="offer-desc">Receive a digital giftcard redeemable at any 7-Eleven store.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/62?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/lkwfba88t6qix4qxaavi/NIKE+ZOOM+VOMERO+5.png" class="offer-img" />
+        <div class="offer-title">Nike Shoes</div>
+        <div class="offer-desc">Stylish and comfortable – enter to win your next favorite kicks.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/1882?s1=')">Claim Offer</button>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/800px-Spotify_App_Logo.svg.png" class="offer-img" />
+        <div class="offer-title">Spotify Premium – 6 Months</div>
+        <div class="offer-desc">Enjoy ad-free music and unlimited skips with Spotify Premium.</div>
+        <button class="offer-btn" onclick="claimOffer('https://smrturl.co/a/seb0a63ccb4/11279?s1=')">Claim Offer</button>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div style="max-width: 960px; margin: 0 auto; padding: 40px 20px; display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between;">
+      <div style="flex: 1 1 220px;">
+        <h3>About Dropshop</h3>
+        <p style="font-size: 0.95rem;">
+          Dropshop is a leading platform offering curated giveaways, digital gift cards, and exclusive online rewards. We connect brands with users in fun and rewarding ways. Our mission is to make your day more exciting through surprise gifts.
+        </p>
+      </div>
+
+      <div style="flex: 1 1 150px;">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div style="flex: 1 1 200px;">
+        <h3>Contact</h3>
+        <p style="font-size: 0.95rem;">
+          Email: support@dropshop.com<br>
+          Phone: +1 (800) 555‑GIFT<br>
+          Location: New York, USA
+        </p>
+      </div>
+    </div>
+
+    <div style="background: #111; color: #888; text-align: center; padding: 15px; font-size: 0.9rem;">
+      &copy; 2025 Dropshop Giveaways. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
